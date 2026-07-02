@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="./CSS/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <span class="nav-name">Daniel Ivanov</span>
+    <button id="btn" onclick="switchLanguage()">Translate to Dutch</button>
+  </nav>
+
+  <div class="box">
+
+    <!-- About Me -->
+    <section>
+      <h2 class="section-title" id="about-title">About Me</h2>
+      <p id="text">My name is Daniel or Danylo Ivanov. I am a new software developer who is studying programming and all its tricks.
+        I am not the best at coding but below you can see some of my projects I have participated in.
+        I am very eager to show you my work and how it looks like. I am also very open to feedback and suggestions on how to improve my work.
+        If you have any questions you can contact me by any of these links below.
+      </p>
+    </section>
+
+    <!-- My Skills -->
+    <section>
+      <h2 class="section-title" id="skills-title">My Skills</h2>
+      <p id="skills-text">I have experience working with HTML, CSS and JavaScript for building websites. I also have knowledge of Node.js and Database managment. I'm mostly great in doing front-end and making a storyboard of the websites. But I also enjoy learning new technologies and improving my skills every day.</p>
+    </section>
+
+    <!-- My Contacts -->
+    <section>
+      <h2 class="section-title" id="contacts-title">My Contacts</h2>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/daniel-ivanov-951b1939b/" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:ivanov2007step@gmail.com" title="Gmail">
+          <i class="fa-brands fa-google"></i>
+        </a>
+        <a href="https://github.com/Danchick7" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- My Projects -->
+    <section>
+      <h2 class="section-title" id="projects-title">My Projects</h2>
+      <div class="projects">
+
+        <a href="https://102623.stu.sd-lab.nl/Quizzie-main/Html/home.html" target="_blank" class="project-card">
+          <img src="./IMG/quizzie.png" alt="Quizzie" />
+          <div class="project-label">Quizzie</div>
+        </a>
+
+        <a href="https://102623.stu.sd-lab.nl/d2a-scripting2-mongodb-eindopdracht-Danchick7-main/public/index.html" target="_blank" class="project-card">
+          <img src="./IMG/imdb.png" alt="Mini IMDb" />
+          <div class="project-label">Mini IMDb</div>
+        </a>
+
+        <a href="https://102623.stu.sd-lab.nl/projectweek/program2/projectweek2/" target="_blank" class="project-card">
+          <img src="./IMG/uploader.png" alt="Image Uploader" />
+          <div class="project-label">Image Uploader</div>
+        </a>
+
+        <a href="https://102623.stu.sd-lab.nl/Yume-Ramen-main/pages/homepage/index_view.php" target="_blank" class="project-card">
+          <img src="./IMG/ramen.png" alt="Yume Ramen" />
+          <div class="project-label">Yume Ramen</div>
+        </a>
+
+      </div>
+    </section>
+
+  </div>
+
+  <script src="./JS/index.js"></script>
+
+</body>
+</html>
